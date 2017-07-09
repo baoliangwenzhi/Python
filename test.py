@@ -164,7 +164,7 @@ def demo_re():
     str = 'xx2016-06-11yy'
     p5 = re.compile('\d{4}-\d{2}-\d{2}')
     print p5.findall(str)
-if __name__ == '__main__':
+#if __name__ == '__main__':
     print 'hello nowcoder'
     # comment
     # demo_string()
@@ -174,4 +174,4 @@ if __name__ == '__main__':
     # demo_list()
     # demo_dict()
     # demo_set()
-    demo_re()
+   # demo_re()
